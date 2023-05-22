@@ -1,6 +1,6 @@
 # Проект: Место
 
-[**Mesto**](https://olga-grishakova.github.io/mesto-project/) (ссылка для просмотра)
+[**Mesto**](https://olga-grishakova.github.io/mesto-project/index.html) (ссылка для просмотра)
 
 ## Описание проекта
 Проект представляет собой адаптивный одностраничный сайт
