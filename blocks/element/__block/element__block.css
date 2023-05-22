@@ -1,0 +1,11 @@
+.element__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px 15px 31px 21px;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}

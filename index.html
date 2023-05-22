@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto</title>
+  <meta name="description" content="Здесь можно делиться фотографиями интересных мест, удалять их и ставить лайки">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+    <!-- HEADER -->
+    <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="логотип Место">
+    </header>
+
+    <main class="main">
+
+      <!-- PROFILE -->
+      <section class="profile" aria-label="Информация о пользователе">
+        <div class="profile__content">
+          <img class="profile__avatar" src="./images/avatar.png" alt="Аватар пользователя">
+          <div class="profile__info">
+            <div class="profile__row">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button" aria-label="Редактрировать профиль" type="button"></button>
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
+          </div>
+        </div>
+        <button class="profile__add-button" aria-label="Добавить профиль" type="button"></button>
+      </section>
+
+      <!-- ELEMENTS -->
+      <section class="elements" aria-label="Фотографии">
+        <div class="element">
+          <img  class="element__image" src="./images/karachevsk.png" alt="Карачевск">
+          <div class="element__block">
+            <h2 class="element__title">Карачевск</h2>
+            <button class="element__like" aria-label="Поставить лайк" type="button"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img  class="element__image" src="./images/elbrus.png" alt="Гора Эльбрус">
+          <div class="element__block">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button class="element__like" aria-label="Поставить лайк" type="button"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img  class="element__image" src="./images/dombai.png" alt="Домбай">
+          <div class="element__block">
+            <h2 class="element__title">Домбай</h2>
+            <button class="element__like" aria-label="Поставить лайк" type="button"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img  class="element__image" src="./images/elbrus.png" alt="Гора Эльбрус">
+          <div class="element__block">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button class="element__like" aria-label="Поставить лайк" type="button"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img  class="element__image" src="./images/dombai.png" alt="Домбай">
+          <div class="element__block">
+            <h2 class="element__title">Домбай</h2>
+            <button class="element__like" aria-label="Поставить лайк" type="button"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img  class="element__image" src="./images/karachevsk.png" alt="Карачаево-Черкессия">
+          <div class="element__block">
+            <h2 class="element__title">Карачаево-Черкессия</h2>
+            <button class="element__like" aria-label="Поставить лайк" type="button"></button>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__content"> &copy; 2023 Mesto Russia</p>
+    </footer>
+
+    <!-- POPUP -->
+    <!-- <section class="popup popup_opened"> -->
+    <section class="popup">
+      <div class="popup__container">
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <form class="popup__form" name="popup-form">
+          <input type="text" placeholder="Жак-Ив Кусто" required class="popup__input popup__input_text_name" name="popup-name">
+          <input type="text" placeholder="Исследователь океана" required class="popup__input popup__input_text_job" name="popup-job">
+          <button class="popup__submit-button" type="submit" aria-label="Сохранить данные">Сохранить</button>
+        </form>
+        <button class="popup__close" aria-label="Закрыть форму" type="button"></button>
+      </div>
+    </section>
+</body>
+</html>

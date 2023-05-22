@@ -1,0 +1,9 @@
+.element {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 10px;
+}
