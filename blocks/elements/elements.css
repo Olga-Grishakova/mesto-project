@@ -4,7 +4,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
   justify-content: center;
-  padding-top: 51px;
+  padding-top: 50px;
   column-gap: 17px;
   row-gap: 20px;
+}
+
+@media screen and (max-width: 560px) {
+  .elements {
+    padding-top: 36px;
+  }
 }
