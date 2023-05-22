@@ -4,12 +4,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 24px 24px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   box-sizing: border-box;
   min-width: 24px;
   height: 24px;
   transition: opacity .3s ease-in;
-  padding: 0;
+  padding: 0 0 0 18px;
 }
 
 .profile__edit-button:hover {
@@ -18,8 +18,9 @@
 }
 
 @media screen and (max-width: 560px) {
-  .profile__edit-btn {
+  .profile__edit-button {
     min-width: 18px;
     height: 18px;
+    background-size: 18px 18px;
   }
 }
